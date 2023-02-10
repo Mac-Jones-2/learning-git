@@ -7,3 +7,32 @@
 	justify-content: space-around;
 	align-items: center;
 }
+
+.content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	height: 500px;
+	width: 500px;
+	background-color: rgba(255, 255, 255, 0.422);
+	border: 2px solid black;
+}
+
+.company-developers {
+	height: 90%;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid black;
+	background-image: url("./img/3graduation.jpg");
+	background-size: cover; /* object-fit: cover; */
+	/* background-repeat: no-repeat; */
+}
+
+.company-developers .text {
+	text-transform: uppercase;
+	font-size: 40px;
+	color: white;
+}
